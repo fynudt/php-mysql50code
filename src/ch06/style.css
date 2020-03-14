@@ -1,0 +1,74 @@
+h1 {color:white; font-size:24pt; text-align:center;
+    font-family:arial,sans-serif}
+
+header {
+    width: 100%;
+    border: 0;
+    background: black;
+    height: 80px;
+}
+header img {
+    float: left;
+}
+header h1 {
+    float: left;
+}
+nav {
+    width: 100%;
+    background: black;
+    position: relative;
+}
+nav div {
+    float: left;
+    background: black;
+    width: 25%;
+    height: 40px;
+    display: flex;
+    justify-content: center;  /*水平居中*/
+    align-items: center;      /*垂直居中*/
+}
+nav div a {
+    color: white;
+}
+
+nav div img {
+    float: left;
+}
+
+nav div span {
+    float: left;
+    padding-left: 5px;
+    color: white;
+}
+
+section {
+    margin-top: 50px;
+}
+
+p {
+    font-size: 16pt;
+    font-family:arial;
+    font-weight: bold;
+}
+
+footer {
+    background: black;
+    width: 100%;
+    position: relative;
+    text-align:center;
+    vertical-align:middle;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+footer p {
+    color: white;
+    font-size: 12pt;
+    font-family:arial;
+    font-weight: unset;
+}
+
+footer p a {
+    color: white;
+    text-decoration : none;
+}
